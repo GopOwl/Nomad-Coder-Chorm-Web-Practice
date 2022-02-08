@@ -1,5 +1,9 @@
-function sayHello() {
-    console.log("Hello my name is");
-}
+const player = {
+    name : "nico", 
+    sayHello : function(otherPersonsName) {
+        console.log("hello!",otherPersonsName,"nice to meet you!");
+    }
+};
 
-sayHello();
+player.sayHello("lynn");
+player.sayHello("nico");
