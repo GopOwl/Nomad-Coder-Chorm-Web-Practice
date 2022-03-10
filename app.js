@@ -5,7 +5,6 @@ function handTitleClick() {
 }
 
 function handleMouseEnter() {
-<<<<<<< HEAD
     h1.innerText = "Mouse is here!";
 }
 
@@ -38,15 +37,3 @@ window.addEventListener('resize',handleWindowResize);
 window.addEventListener('copy',handleWindowCopy);
 window.addEventListener('offline',handleWindowOffline);
 window.addEventListener('online',handleWindowOnline);
-=======
-    title.innerText = "Mouse is here!"
-}
-
-function handleMouseLeave() {
-    title.innerText = "Mouse is gone!"
-}
-
-title.addEventListener("click", handTitleClick);
-title.addEventListener("mouseenter",handleMouseEnter);
-title.addEventListener("mouseleave",handleMouseLeave);
->>>>>>> 178593e794281caa81579c679ba5a36b8e3334f5
