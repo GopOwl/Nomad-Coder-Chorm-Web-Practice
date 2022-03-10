@@ -1,3 +1,7 @@
-const title = document.querySelector(".hello h1");
+const title = document.querySelector(".hello:first-child h1");
 
-title.innerText = "hello";
+function handTitleClick() {
+    title.style.color = 'blue';
+}
+
+title.addEventListener("click", handTitleClick);
